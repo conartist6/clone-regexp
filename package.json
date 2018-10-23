@@ -1,16 +1,13 @@
 {
-	"name": "clone-regexp",
-	"version": "2.1.0",
-	"description": "Clone and modify a RegExp instance",
+	"name": "clone-regexp-compatible",
+	"version": "1.0.0",
+	"description": "Clone and modify a RegExp instance. Forked from clone-regexp.",
 	"license": "MIT",
-	"repository": "sindresorhus/clone-regexp",
+	"repository": "conartist6/clone-regexp-compatible",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
 		"url": "sindresorhus.com"
-	},
-	"engines": {
-		"node": ">=6"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -29,6 +26,11 @@
 		"modify",
 		"mutate"
 	],
+	"xo": {
+		"rules": {
+			"prefer-arrow-callback": "off"	
+		}
+	},
 	"dependencies": {
 		"is-regexp": "^2.0.0"
 	},
